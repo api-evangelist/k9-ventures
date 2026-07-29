@@ -1,8 +1,24 @@
 aid: k9-ventures
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/k9-ventures.png
 name: K9 Ventures
-description: 'K9 Ventures is a company surfaced as a portfolio company of foundry-group and added to the
-  API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'K9 Ventures is a technology-focused Pre-Seed venture capital fund based in Palo Alto,
+  California, founded by Manu Kumar (its "Chief Firestarter"). The firm provides the first institutional
+  capital to companies at "frighteningly early" stages, backing new core technologies, technology platforms,
+  and new markets rather than following a fixed sector thesis. K9 makes only a handful of concentrated
+  investments each year, favoring teams building something genuinely new. Notable past portfolio companies
+  include Twilio, Lytro, CrowdFlower, and DNAnexus. This profile was surfaced as a portfolio company of
+  Foundry Group and added to the API Evangelist network; K9 Ventures does not publish a public API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/k9-ventures/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Venture Capital
+- Pre-Seed
+- Early Stage
+- Startup Investing
+- Deep Tech
+- Palo Alto
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/k9-ventures-domain-security.yml
 - type: Website
   url: https://www.k9ventures.com
+- type: About
+  url: https://www.k9ventures.com/about/
+- type: Blog
+  url: https://www.k9ventures.com/blog/
+- type: Team
+  url: https://www.k9ventures.com/team/
+- type: Portfolio
+  url: https://www.k9ventures.com/startups/
+- type: Twitter
+  url: https://www.twitter.com/k9ventures
+- type: LinkedIn
+  url: https://www.linkedin.com/company/k9-ventures
+- type: LLMsTxt
+  url: llms/k9-ventures-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

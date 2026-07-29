@@ -1,0 +1,22 @@
+# K9 Ventures
+
+> K9 Ventures is a technology-focused Pre-Seed venture capital fund based in Palo Alto, California, founded by Manu Kumar. It provides the first institutional capital to companies at "frighteningly early" stages, backing new core technologies, technology platforms, and new markets. This entry is a company/provider profile in the API Evangelist network; K9 Ventures does not publish a public API surface.
+
+## Profile
+
+- [Website](https://www.k9ventures.com): Firm homepage.
+- [About](https://www.k9ventures.com/about/): Investment thesis and approach.
+- [Team](https://www.k9ventures.com/team/): People at K9 Ventures.
+- [Portfolio](https://www.k9ventures.com/startups/): Companies K9 Ventures has backed.
+- [Blog](https://www.k9ventures.com/blog/): Writing from the firm.
+
+## Social
+
+- [Twitter/X](https://www.twitter.com/k9ventures)
+- [LinkedIn](https://www.linkedin.com/company/k9-ventures)
+
+## Notes
+
+- Sector: venture-capital (Pre-Seed / first institutional money).
+- No public API, OpenAPI/AsyncAPI specification, SDK, developer portal, or MCP server is published by this firm.
+- API Evangelist record: https://raw.githubusercontent.com/api-evangelist/k9-ventures/refs/heads/main/apis.yml
