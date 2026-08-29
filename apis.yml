@@ -31,6 +31,9 @@ description: 'K9 Ventures is a technology-focused Pre-Seed venture capital fund 
   include Twilio, Lytro, CrowdFlower, and DNAnexus. This profile was surfaced as a portfolio company of
   Foundry Group and added to the API Evangelist network; K9 Ventures does not publish a public API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/k9-ventures/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This profile was surfaced as a portfolio company of Foundry Group and added to the API Evangelist network; K9 Ventures does not publish a public API surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
